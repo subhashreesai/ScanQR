@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-
-import Header from './components/Header';
-import Services from './components/Services';
-import SocialMedia from './components/SocialMedia';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
+import Navbar from './Components/Navbar';
+import Header from './Components/Header';
+import Services from './Components/Services';
+import SocialMedia from './Components/SocialMedia';
+import ContactForm from './Components/ContactForm';
+import Footer from './Components/Footer';
 import { ThemeProvider } from './context/ThemeContext';
+
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
@@ -25,3 +25,5 @@ function App() {
 }
 
 export default App;
+
+     
